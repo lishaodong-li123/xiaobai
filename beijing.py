@@ -25,7 +25,7 @@ connect = pymysql.connect(
 cursor = connect.cursor()
 print('链接成功。。。。')
 
-
+# 次注视只管提交
 if __name__ == '__main__':
 
     for i in range(0,25):
